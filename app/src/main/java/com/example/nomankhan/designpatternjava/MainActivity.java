@@ -13,7 +13,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 import com.example.nomankhan.designpatternjava.solid.d.DependencyInversionPrinciple;
-import com.example.nomankhan.designpatternjava.solid.L.LiskovSubstitutionPrinciple;
+import com.example.nomankhan.designpatternjava.solid.l.LiskovSubstitutionPrinciple;
 import com.example.nomankhan.designpatternjava.solid.o.OpenClosePrinciple;
 import com.example.nomankhan.designpatternjava.solid.s.SingleResonsibiltyPrinciple;
 

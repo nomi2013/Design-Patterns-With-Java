@@ -25,7 +25,7 @@
       android:screenOrientation="portrait" />
     <activity
       android:label="@string/liskov_substitution_principle"
-      android:name=".solid.L.LiskovSubstitutionPrinciple"
+      android:name=".solid.l.LiskovSubstitutionPrinciple"
       android:screenOrientation="portrait" />
     <activity
       android:label="@string/open_close_principle"

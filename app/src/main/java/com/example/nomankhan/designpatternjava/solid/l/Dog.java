@@ -1,4 +1,4 @@
-package com.example.nomankhan.designpatternjava.solid.L;
+package com.example.nomankhan.designpatternjava.solid.l;
 
 import android.util.Log;
 
