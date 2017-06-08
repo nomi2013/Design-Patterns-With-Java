@@ -1,4 +1,4 @@
-package com.example.nomankhan.designpatternjava.solid.l;
+package com.example.nomankhan.designpatternjava.solid.L;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -29,7 +29,7 @@ public class LiskovSubstitutionPrinciple extends AppCompatActivity {
     /**
      * L: Liskov Substitution Principle
      *
-     * If A class extend with B, then B class can be replace with A..
+     * If A class extend with B, then B class can be replace with A.
      */
     //////////////////////////////////////////////////////////////////////////////////////////
 
@@ -39,6 +39,8 @@ public class LiskovSubstitutionPrinciple extends AppCompatActivity {
         setContentView(R.layout.activity_lsp);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        Animal dog = new Dog();
 
     }
     @Override

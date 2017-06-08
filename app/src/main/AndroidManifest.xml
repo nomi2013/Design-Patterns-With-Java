@@ -25,7 +25,7 @@
       android:screenOrientation="portrait" />
     <activity
       android:label="@string/liskov_substitution_principle"
-      android:name=".solid.l.LiskovSubstitutionPrinciple"
+      android:name=".solid.L.LiskovSubstitutionPrinciple"
       android:screenOrientation="portrait" />
     <activity
       android:label="@string/open_close_principle"
@@ -35,6 +35,7 @@
       android:label="@string/dependency_inversion_principle"
       android:name=".solid.d.DependencyInversionPrinciple"
       android:screenOrientation="portrait" />
+    <activity android:name=".solid.i.InterfaceSegregation"></activity>
   </application>
 
 </manifest>

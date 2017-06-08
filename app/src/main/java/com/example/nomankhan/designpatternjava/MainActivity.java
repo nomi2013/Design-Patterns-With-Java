@@ -8,10 +8,12 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.method.ScrollingMovementMethod;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 import com.example.nomankhan.designpatternjava.solid.d.DependencyInversionPrinciple;
-import com.example.nomankhan.designpatternjava.solid.l.LiskovSubstitutionPrinciple;
+import com.example.nomankhan.designpatternjava.solid.L.LiskovSubstitutionPrinciple;
 import com.example.nomankhan.designpatternjava.solid.o.OpenClosePrinciple;
 import com.example.nomankhan.designpatternjava.solid.s.SingleResonsibiltyPrinciple;
 
@@ -34,6 +36,10 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        TextView textView = (TextView)findViewById(R.id.tv);
+        textView.setMovementMethod(new
+                ScrollingMovementMethod());
     }
 
     @Override

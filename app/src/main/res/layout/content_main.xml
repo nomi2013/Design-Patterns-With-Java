@@ -9,12 +9,15 @@
   tools:showIn="@layout/app_bar_main">
 
   <TextView
+    android:id="@+id/tv"
     android:layout_width="383dp"
     android:layout_height="wrap_content"
     android:text="@string/design_patterns_text"
     app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
-    android:layout_marginTop="20dp"/>
+    android:layout_marginTop="20dp"
+    android:maxLines="20000"
+    android:scrollbars="vertical"/>
 
 </android.support.constraint.ConstraintLayout>
