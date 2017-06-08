@@ -1,0 +1,81 @@
+<resources>
+  <string name="app_name">Design Patterns Java</string>
+
+  <string name="navigation_drawer_open">Open navigation drawer</string>
+  <string name="navigation_drawer_close">Close navigation drawer</string>
+
+  <string name="action_settings">Settings</string>
+  <string name="single_responsibilty">Single Responsibilty</string>
+  <string name="open_close_principle">Open/Close Principle</string>
+  <string name="liskov_substitution_principle">Liskov Substitution Principle</string>
+  <string name="dependency_inversion_principle">Dependency Inversion Principle</string>
+  <string name="single_responsibilty_text">
+    <b>We can introduced design pattern to make your code
+    flexible.
+      \n A well structure code is easy for extension and readable. </b>
+    \n\n
+    <b>SOLID: </b>
+    \n
+    <i>
+    * S: Single Responsibility Principle.
+      \n
+    * O: Open/Closed Responsibility Principle.
+      \n
+    * L: Liskovi Substitution Principle.
+      \n
+    * S: Dependency inversion Principle.
+      \n
+    * These principle will meet in design pattern.
+    </i>
+    \n\n
+    <b>
+    * S: Single Responsibility Principle
+    </b>
+     \n
+     <b>
+    * A class must do, what it design for rather than doing to many task.
+    </b>
+     \n
+     <b>
+    * We can avoid through composition or interface.
+      </b>
+  </string>
+
+  <string name="design_patterns_text">
+    <b>We can introduced design pattern to make your code
+    flexible.
+      \n A well structure code is easy for extension and readable. </b>
+    \n\n
+    <b>SOLID: </b>
+    \n
+    <i>
+    * S: Single Responsibility Principle.
+      \n
+    * O: Open/Closed Responsibility Principle.
+      \n
+    * L: Liskovi Substitution Principle.
+      \n
+    * S: Dependency inversion Principle.
+      \n
+    * These principle will meet in design pattern.
+    </i>
+    \n\n
+    <b>
+    * Behavior design patterns.
+    </b>
+      \n  \u0020 1. Strategy pattern.
+      \n  \u0020 2. Observer Pattern.
+     \n\n
+     <b>
+    * Creational design patterns.
+     </b>
+       \n  \u0020 1. Singleton pattern.
+      \n   \u0020 2. Factory Pattern.
+     \n\n
+     <b>
+    * Structural design patterns.
+        </b>
+       \n  \u0020 1. Strategy pattern.
+      \n   \u0020 2. Observer Pattern.
+  </string>
+</resources>

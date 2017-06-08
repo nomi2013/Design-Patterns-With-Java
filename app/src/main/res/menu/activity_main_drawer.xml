@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  tools:showIn="navigation_view">
+
+<!--
+  <group android:checkableBehavior="single">
+    <item
+      android:id="@+id/nav_camera"
+      android:title="Import" />
+    <item
+      android:id="@+id/nav_gallery"
+      android:title="Gallery" />
+    <item
+      android:id="@+id/nav_slideshow"
+      android:title="Slideshow" />
+    <item
+      android:id="@+id/nav_manage"
+      android:title="Tools" />
+  </group>
+-->
+
+  <item android:title="Solid Principle Principle">
+    <menu>
+      <item
+        android:id="@+id/nav_srp"
+        android:title="Single Responsibilty " />
+
+      <item
+        android:id="@+id/nav_ocp"
+        android:title="Open/Close Principle" />
+      <item
+        android:id="@+id/nav_lsp"
+        android:title="Liskov Substitution Principle" />
+      <item
+        android:id="@+id/nav_dip"
+        android:title="Dependency Inversion Principle" />
+    </menu>
+  </item>
+
+</menu>
