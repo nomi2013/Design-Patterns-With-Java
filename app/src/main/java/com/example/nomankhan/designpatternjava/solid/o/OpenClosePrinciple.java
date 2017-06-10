@@ -14,7 +14,7 @@ public class OpenClosePrinciple extends AppCompatActivity {
      * SOLID
      * S: Single Responsibility Principle.
      * O: Open/Closed Responsibility Principle.
-     * L: Liskovi Substitution Principle.
+     * L: Liskov Substitution Principle.
      * S: Dependency inversion Principle.
      *
      * These principle will meet in design pattern.

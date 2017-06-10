@@ -7,6 +7,29 @@ import com.example.nomankhan.designpatternjava.R;
 
 public class DependencyInversionPrinciple extends AppCompatActivity {
 
+    /**
+     * We can introduced design pattern to make your code flexible.
+     * A well structure code is easy for extension and readable.
+     *
+     * SOLID
+     * S: Single Responsibility Principle.
+     * O: Open/Closed Responsibility Principle.
+     * L: Liskov Substitution Principle.
+     * S: Dependency inversion Principle.
+     *
+     * These principle will meet in design pattern.
+     */
+
+    //////////////////////////////////////////////////////////////////////////////////////////
+    /**
+     * D: Dependency Inversion Principle
+     *
+     * When a high level system is tightly dependent on low level system and vice-versa.We should
+     * always design loosely coupled software. It is easy to maintain.
+     * We have to meet always Open/Close principle.
+     */
+    //////////////////////////////////////////////////////////////////////////////////////////
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
