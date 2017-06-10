@@ -42,6 +42,11 @@ public class LiskovSubstitutionPrinciple extends AppCompatActivity {
 
         Animal dog = new Dog();
 
+        //Violation, here super type can not be replaced with subtype.
+        Animal animal = new RoseFlower();
+
+
+
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
