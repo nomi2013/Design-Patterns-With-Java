@@ -38,4 +38,28 @@
     </menu>
   </item>
 
+  <item
+    android:id="@+id/nav_divider"
+    android:title="------------------------------------------------" />
+
+  <item
+    android:id="@+id/nav_bdp"
+    android:title="Behavioral Design Patterns">
+
+    <menu>
+      <item
+        android:id="@+id/nav_sdp"
+        android:title="Strategy pattern " />
+
+      <item
+        android:id="@+id/nav_odp"
+        android:title="Observer pattern " />
+
+      <item
+        android:id="@+id/nav_tdp"
+        android:title="Template pattern " />
+    </menu>
+  </item>
+
+
 </menu>
