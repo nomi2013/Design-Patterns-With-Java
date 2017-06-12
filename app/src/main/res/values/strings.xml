@@ -9,6 +9,7 @@
   <string name="open_close_principle">Open/Close Principle</string>
   <string name="liskov_substitution_principle">Liskov Substitution Principle</string>
   <string name="dependency_inversion_principle">Dependency Inversion Principle</string>
+
   <string name="single_responsibilty_text">
     <b>We can introduced design pattern to make your code
     flexible.
@@ -78,4 +79,92 @@
        \n  \u0020 1. Strategy pattern.
       \n   \u0020 2. Observer Pattern.
   </string>
+
+
+  <string name="open_close_text">
+    <b>We can introduced design pattern to make your code
+    flexible.
+      \n A well structure code is easy for extension and readable. </b>
+    \n\n
+    <b>SOLID: </b>
+    \n
+    <i>
+    * S: Single Responsibility Principle.
+      \n
+    * O: Open/Closed Responsibility Principle.
+      \n
+    * L: Liskovi Substitution Principle.
+      \n
+    * S: Dependency inversion Principle.
+      \n
+    * These principle will meet in design pattern.
+    </i>
+    \n\n
+    <b>
+     O: Open/Close Principle:
+    </b>
+      \n  \u0020 * A class must open for extension and close for modification,
+    We can achieve through inheritance, delegation and composition.
+
+  </string>
+
+  <string name="liskov_text">
+    <b>We can introduced design pattern to make your code
+    flexible.
+      \n A well structure code is easy for extension and readable. </b>
+    \n\n
+    <b>SOLID: </b>
+    \n
+    <i>
+    * S: Single Responsibility Principle.
+      \n
+    * O: Open/Closed Responsibility Principle.
+      \n
+    * L: Liskovi Substitution Principle.
+      \n
+    * S: Dependency inversion Principle.
+      \n
+    * These principle will meet in design pattern.
+    </i>
+    \n\n
+    <b>
+     L: Liskov Substitution Principle:
+    </b>
+      \n  \u0020 * If A class extend with B, then B class can be replace with A.
+
+  </string>
+
+  <string name="dependency_inversion_text">
+    <b>We can introduced design pattern to make your code
+    flexible.
+      \n A well structure code is easy for extension and readable. </b>
+    \n\n
+    <b>SOLID: </b>
+    \n
+    <i>
+    * S: Single Responsibility Principle.
+      \n
+    * O: Open/Closed Responsibility Principle.
+      \n
+    * L: Liskovi Substitution Principle.
+      \n
+    * S: Dependency inversion Principle.
+      \n
+    * These principle will meet in design pattern.
+    </i>
+    \n\n
+    <b>
+    D: Dependency Inversion Principle:
+    </b>
+      \n  \u0020 *    When a high level system is tightly \u0020dependent on low level system and
+    vice-versa. \n \u0020 We should
+      always design loosely coupled software. \n \u0020 It is easy to maintain.
+      We have to meet always Open/Close principle.
+
+   \n\n  \u0020 * <b> High Level Modules &lt;-----> \n \u0020Abstract Layer &lt;-----> \n \u0020Low
+     Level Modules</b>
+
+
+  </string>
+
 </resources>

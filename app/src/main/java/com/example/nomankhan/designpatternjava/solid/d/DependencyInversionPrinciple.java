@@ -27,6 +27,8 @@ public class DependencyInversionPrinciple extends AppCompatActivity {
      * When a high level system is tightly dependent on low level system and vice-versa.We should
      * always design loosely coupled software. It is easy to maintain.
      * We have to meet always Open/Close principle.
+     *
+     * High Level Modules <-----> Abstract Layer <-----> Low Level Modules
      */
     //////////////////////////////////////////////////////////////////////////////////////////
 
@@ -36,6 +38,15 @@ public class DependencyInversionPrinciple extends AppCompatActivity {
         setContentView(R.layout.activity_dependency_inversion_principle);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        Database sqliteDataBase = new SqliteDatabase();
+        Database oracleDataBase = new OracleDatabase();
+
+        sqliteDataBase.connect();
+        sqliteDataBase.disconnect();
+
+        oracleDataBase.connect();
+        oracleDataBase.disconnect();
     }
 
     @Override
