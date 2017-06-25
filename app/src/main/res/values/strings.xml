@@ -157,7 +157,7 @@
     D: Dependency Inversion Principle:
     </b>
       \n  \u0020 *    When a high level system is tightly \u0020dependent on low level system and
-    vice-versa. \n \u0020 We should
+    vice-versa. \n \020u0 We should
       always design loosely coupled software. \n \u0020 It is easy to maintain.
       We have to meet always Open/Close principle.
 
@@ -165,6 +165,23 @@
      Level Modules</b>
 
 
+  </string>
+  <string name="str_strategy_pattern">
+    <b>
+    1. What varies should be encapsulate. \n \u0020\u0020\u0020 Varying code ----- stay same code.
+      \n\n
+    2. Code to interface/supertype, \n \u0020\u0020\u0020 not to implementation.
+      \n\n
+    3. Favour composition over inheritance.
+    </b>
+  </string>
+  <string name="str_template_pattern">
+    <b>
+    1. The abstract class will define sets of methods \n\u0020\u0020\u0020\u0020  as template.
+    \n\n
+      2. The subclass will execute the methods, \n\u0020\u0020\u0020\u0020
+      they way are defined in super class.
+    </b>
   </string>
 
 </resources>

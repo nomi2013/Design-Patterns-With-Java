@@ -12,6 +12,8 @@ import android.text.method.ScrollingMovementMethod;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
+import com.example.nomankhan.designpatternjava.designpatterns.behavioral.strategy.StrategyPattern;
+import com.example.nomankhan.designpatternjava.designpatterns.behavioral.template.TemplatePattern;
 import com.example.nomankhan.designpatternjava.solid.d.DependencyInversionPrinciple;
 import com.example.nomankhan.designpatternjava.solid.l.LiskovSubstitutionPrinciple;
 import com.example.nomankhan.designpatternjava.solid.o.OpenClosePrinciple;
@@ -24,6 +26,7 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -80,6 +83,7 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
+        // SOLID principle calls
         if (id == R.id.nav_srp) {
             startActivity(new Intent(this, SingleResonsibiltyPrinciple.class));
         } else if (id == R.id.nav_ocp) {
@@ -89,6 +93,14 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_dip) {
             startActivity(new Intent(this, DependencyInversionPrinciple.class));
         }
+
+        // Behavioural design patterns calls
+          else if (id == R.id.nav_sdp) {
+            startActivity(new Intent(this, StrategyPattern.class));
+        }  else if (id == R.id.nav_tdp) {
+            startActivity(new Intent(this, TemplatePattern.class));
+        }
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

@@ -36,14 +36,14 @@
       android:name=".solid.d.DependencyInversionPrinciple"
       android:screenOrientation="portrait" />
     <activity android:name=".solid.i.InterfaceSegregation" />
-    <activity android:name=".designpatterns.behavioral.StrategyPattern" />
+    <activity android:name=".designpatterns.behavioral.strategy.StrategyPattern" />
     <activity android:name=".designpatterns.creational.SingletonPattern" />
     <activity android:name=".designpatterns.structural.DecoratorPattern" />
     <activity android:name=".designpatterns.structural.FacadePattern" />
     <activity android:name=".designpatterns.structural.AdapterPattern" />
     <activity android:name=".designpatterns.creational.FactoryPattern" />
     <activity android:name=".designpatterns.creational.BuilderPattern" />
-    <activity android:name=".designpatterns.behavioral.TemplatePattern"></activity>
+    <activity android:name=".designpatterns.behavioral.template.TemplatePattern"></activity>
   </application>
 
 </manifest>
