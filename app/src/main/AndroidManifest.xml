@@ -43,7 +43,8 @@
     <activity android:name=".designpatterns.structural.AdapterPattern" />
     <activity android:name=".designpatterns.creational.FactoryPattern" />
     <activity android:name=".designpatterns.creational.BuilderPattern" />
-    <activity android:name=".designpatterns.behavioral.template.TemplatePattern"></activity>
+    <activity android:name=".designpatterns.behavioral.template.TemplatePattern" />
+    <activity android:name=".designpatterns.behavioral.observer.ObserverPattern"></activity>
   </application>
 
 </manifest>

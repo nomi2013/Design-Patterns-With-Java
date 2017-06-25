@@ -12,6 +12,7 @@ import android.text.method.ScrollingMovementMethod;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
+import com.nomankhan.designpatternjava.designpatterns.behavioral.observer.ObserverPattern;
 import com.nomankhan.designpatternjava.designpatterns.behavioral.strategy.StrategyPattern;
 import com.nomankhan.designpatternjava.designpatterns.behavioral.template.TemplatePattern;
 import com.nomankhan.designpatternjava.solid.d.DependencyInversionPrinciple;
@@ -97,8 +98,10 @@ public class MainActivity extends AppCompatActivity
         // Behavioural design patterns calls
           else if (id == R.id.nav_sdp) {
             startActivity(new Intent(this, StrategyPattern.class));
-        }  else if (id == R.id.nav_tdp) {
+        } else if (id == R.id.nav_tdp) {
             startActivity(new Intent(this, TemplatePattern.class));
+        } else if (id == R.id.nav_odp) {
+            startActivity(new Intent(this, ObserverPattern.class));
         }
 
 

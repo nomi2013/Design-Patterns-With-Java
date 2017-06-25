@@ -183,5 +183,15 @@
       they way are defined in super class.
     </b>
   </string>
+  <string name="str_observer_pattern">
+    <b>
+    1. It follow one-to many concept.
+     \n\u0020\u0020\u0020\u0020When a state of object is changed, notified to
+      \n\u0020\u0020\u0020\u0020all its
+    dependents.
+      \n\n
+  2. Its loosely coupled software design patterns between \n\u0020\u0020\u0020\u0020\u0020objects.
+ </b>
+  </string>
 
 </resources>
