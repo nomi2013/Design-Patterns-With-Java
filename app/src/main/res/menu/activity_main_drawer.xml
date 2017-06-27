@@ -61,5 +61,23 @@
     </menu>
   </item>
 
+  <item
+    android:id="@+id/nav_divider2"
+    android:title="------------------------------------------------" />
 
+  <item
+    android:id="@+id/nav_cdp"
+    android:title="Creational Design Patterns">
+
+    <menu>
+      <item
+        android:id="@+id/nav_singdp"
+        android:title="Singleton pattern " />
+
+      <item
+        android:id="@+id/nav_builderdp"
+        android:title="Builder pattern " />
+
+    </menu>
+  </item>
 </menu>

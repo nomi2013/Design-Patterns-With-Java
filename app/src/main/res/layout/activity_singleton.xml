@@ -4,6 +4,12 @@
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  tools:context="com.nomankhan.designpatternjava.designpatterns.creational.SingletonPattern">
-
+  tools:context="com.nomankhan.designpatternjava.designpatterns.creational.singleton.SingletonPattern">
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toTopOf="parent"
+    android:text="@string/str_sing_pattern"
+    android:padding="20dp"
+    android:textAppearance="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle"/>
 </android.support.constraint.ConstraintLayout>

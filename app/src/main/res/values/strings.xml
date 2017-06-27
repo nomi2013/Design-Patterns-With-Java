@@ -186,12 +186,33 @@
   <string name="str_observer_pattern">
     <b>
     1. It follow one-to many concept.
-     \n\u0020\u0020\u0020\u0020When a state of object is changed, notified to
-      \n\u0020\u0020\u0020\u0020all its
+     \n\u0020\u0020\u0020\u0020 When a state of object is changed, notified to
+      \n\u0020\u0020\u0020\u0020 all its
     dependents.
       \n\n
-  2. Its loosely coupled software design patterns between \n\u0020\u0020\u0020\u0020\u0020objects.
+  2. Its loosely coupled software design patterns \n \u0020\u0020\u0020\u0020\u0020 between objects.
  </b>
+  </string>
+  <string name="str_sing_pattern">
+    <b>
+
+    1. This design pattern is useful to have only one \n\u0020\u0020\u0020\u0020 object of a class.
+    \n\n
+      2. It strict class to have only one object, saves \n\u0020\u0020\u0020\u0020 memory.
+     </b>
+
+</string>
+
+  <string name="str_builder_pattern">
+    <b>
+    1. When a class have to many properties, \n\u0020\u0020\u0020\u0020
+      it is very messy to have to many constructor or \n\u0020\u0020\u0020\u0020setters.
+    \n\n
+    2. Builder pattern helps in avoiding creation of \n\u0020\u0020\u0020\u0020 constructor as
+      parameters grows.
+    \n\n
+    3. Flexible to add new property in class.
+    </b>
   </string>
 
 </resources>

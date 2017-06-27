@@ -15,6 +15,8 @@ import android.widget.TextView;
 import com.nomankhan.designpatternjava.designpatterns.behavioral.observer.ObserverPattern;
 import com.nomankhan.designpatternjava.designpatterns.behavioral.strategy.StrategyPattern;
 import com.nomankhan.designpatternjava.designpatterns.behavioral.template.TemplatePattern;
+import com.nomankhan.designpatternjava.designpatterns.creational.builder.BuilderPattern;
+import com.nomankhan.designpatternjava.designpatterns.creational.singleton.SingletonPattern;
 import com.nomankhan.designpatternjava.solid.d.DependencyInversionPrinciple;
 import com.nomankhan.designpatternjava.solid.l.LiskovSubstitutionPrinciple;
 import com.nomankhan.designpatternjava.solid.o.OpenClosePrinciple;
@@ -96,7 +98,7 @@ public class MainActivity extends AppCompatActivity
         }
 
         // Behavioural design patterns calls
-          else if (id == R.id.nav_sdp) {
+        else if (id == R.id.nav_sdp) {
             startActivity(new Intent(this, StrategyPattern.class));
         } else if (id == R.id.nav_tdp) {
             startActivity(new Intent(this, TemplatePattern.class));
@@ -104,6 +106,12 @@ public class MainActivity extends AppCompatActivity
             startActivity(new Intent(this, ObserverPattern.class));
         }
 
+        // Creational design patterns call
+          else if (id == R.id.nav_singdp) {
+            startActivity(new Intent(this, SingletonPattern.class));
+        } else if (id == R.id.nav_builderdp) {
+            startActivity(new Intent(this, BuilderPattern.class));
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

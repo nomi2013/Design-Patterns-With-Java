@@ -4,6 +4,6 @@
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  tools:context="com.nomankhan.designpatternjava.designpatterns.creational.FactoryPattern">
+  tools:context="com.nomankhan.designpatternjava.designpatterns.creational.factory.FactoryPattern">
 
 </android.support.constraint.ConstraintLayout>

@@ -37,12 +37,12 @@
       android:screenOrientation="portrait" />
     <activity android:name=".solid.i.InterfaceSegregation" />
     <activity android:name=".designpatterns.behavioral.strategy.StrategyPattern" />
-    <activity android:name=".designpatterns.creational.SingletonPattern" />
+    <activity android:name=".designpatterns.creational.singleton.SingletonPattern" />
     <activity android:name=".designpatterns.structural.DecoratorPattern" />
     <activity android:name=".designpatterns.structural.FacadePattern" />
     <activity android:name=".designpatterns.structural.AdapterPattern" />
-    <activity android:name=".designpatterns.creational.FactoryPattern" />
-    <activity android:name=".designpatterns.creational.BuilderPattern" />
+    <activity android:name=".designpatterns.creational.factory.FactoryPattern" />
+    <activity android:name=".designpatterns.creational.builder.BuilderPattern" />
     <activity android:name=".designpatterns.behavioral.template.TemplatePattern" />
     <activity android:name=".designpatterns.behavioral.observer.ObserverPattern"></activity>
   </application>
