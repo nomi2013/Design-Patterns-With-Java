@@ -1,14 +1,12 @@
 # Design-Patterns-In-Java
 Well ducumented design patterns in java with real life example.
 
-# SOLID Priniciple
+# SOLID Principle
 S: Single Responsibilty Principle.
 O: Open/Close Princicple.
 L: Liskov Substitution Principle.
 i: Interface Segregation
-D: Dependency inversion Princicple.
-
-# Design Patterns
+D: Dependency inversion Principle.
  
  # Behavioral Design Patterns
  1. Strategy pattern
