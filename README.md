@@ -5,6 +5,7 @@ Well ducumented design patterns in java with real life example.
 S: Single Responsibilty Principle.
 O: Open/Close Princicple.
 L: Liskov Substitution Principle.
+i: Interface Segregation
 D: Dependency inversion Princicple.
 
 # Design Patterns
