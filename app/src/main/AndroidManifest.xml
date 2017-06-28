@@ -39,8 +39,8 @@
     <activity android:name=".designpatterns.behavioral.strategy.StrategyPattern" />
     <activity android:name=".designpatterns.creational.singleton.SingletonPattern" />
     <activity android:name=".designpatterns.structural.DecoratorPattern" />
-    <activity android:name=".designpatterns.structural.FacadePattern" />
-    <activity android:name=".designpatterns.structural.AdapterPattern" />
+    <activity android:name=".designpatterns.structural.facade.FacadePattern" />
+    <activity android:name=".designpatterns.structural.adapter.AdapterPattern" />
     <activity android:name=".designpatterns.creational.factory.FactoryPattern" />
     <activity android:name=".designpatterns.creational.builder.BuilderPattern" />
     <activity android:name=".designpatterns.behavioral.template.TemplatePattern" />

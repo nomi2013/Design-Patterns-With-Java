@@ -148,7 +148,7 @@
       \n
     * L: Liskovi Substitution Principle.
       \n
-    * S: Dependency inversion Principle.
+    * D: Dependency inversion Principle.
       \n
     * These principle will meet in design pattern.
     </i>
@@ -213,6 +213,25 @@
     \n\n
     3. Flexible to add new property in class.
     </b>
+  </string>
+  <string name="str_factory_pattern">
+    <b>
+    1. This pattern is useful when bulk of object \n\u0020\u0020\u0020\u0020creation is done.
+      \n\n
+    2. Follow rule code to interface.
+      \n\n
+    3. This pattern also meet Open/Close principle
+  </b>
+  </string>
+  <string name="str_facde_pattern" >
+    <b>
+    It defines high level interfaces for low level system.
+  </b>
+  </string>
+  <string name="str_adap_pattern">
+    <b>
+    1. It convert interface of class to other interface as client expect.
+  </b>
   </string>
 
 </resources>

@@ -16,7 +16,10 @@ import com.nomankhan.designpatternjava.designpatterns.behavioral.observer.Observ
 import com.nomankhan.designpatternjava.designpatterns.behavioral.strategy.StrategyPattern;
 import com.nomankhan.designpatternjava.designpatterns.behavioral.template.TemplatePattern;
 import com.nomankhan.designpatternjava.designpatterns.creational.builder.BuilderPattern;
+import com.nomankhan.designpatternjava.designpatterns.creational.factory.FactoryPattern;
 import com.nomankhan.designpatternjava.designpatterns.creational.singleton.SingletonPattern;
+import com.nomankhan.designpatternjava.designpatterns.structural.adapter.AdapterPattern;
+import com.nomankhan.designpatternjava.designpatterns.structural.facade.FacadePattern;
 import com.nomankhan.designpatternjava.solid.d.DependencyInversionPrinciple;
 import com.nomankhan.designpatternjava.solid.l.LiskovSubstitutionPrinciple;
 import com.nomankhan.designpatternjava.solid.o.OpenClosePrinciple;
@@ -106,12 +109,23 @@ public class MainActivity extends AppCompatActivity
             startActivity(new Intent(this, ObserverPattern.class));
         }
 
-        // Creational design patterns call
+        // Creational design patterns calls
           else if (id == R.id.nav_singdp) {
             startActivity(new Intent(this, SingletonPattern.class));
         } else if (id == R.id.nav_builderdp) {
             startActivity(new Intent(this, BuilderPattern.class));
+        } else if (id == R.id.nav_factorydp) {
+            startActivity(new Intent(this, FactoryPattern.class));
         }
+
+        // Structural design patterns calls
+        else if (id == R.id.nav_facadp) {
+            startActivity(new Intent(this, FacadePattern.class));
+        } else if (id == R.id.nav_adapdp) {
+            startActivity(new Intent(this, AdapterPattern.class));
+        }
+
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

@@ -78,6 +78,30 @@
         android:id="@+id/nav_builderdp"
         android:title="Builder pattern " />
 
+      <item
+        android:id="@+id/nav_factorydp"
+        android:title="Factory pattern " />
+
+    </menu>
+  </item>
+
+  <item
+    android:id="@+id/nav_divider3"
+    android:title="------------------------------------------------" />
+
+  <item
+    android:id="@+id/nav_strucdp"
+    android:title="Structural Design Patterns">
+
+    <menu>
+      <item
+        android:id="@+id/nav_facadp"
+        android:title="Facade pattern " />
+
+      <item
+        android:id="@+id/nav_adapdp"
+        android:title="Adapter pattern " />
+
     </menu>
   </item>
 </menu>

@@ -7,9 +7,9 @@ import com.nomankhan.designpatternjava.R;
 /**
  *
  *
- *   This pattern is useful when bulk of object creation.
+ *   This pattern is useful when bulk of object creation is done.
  *   Follow rule code to interface.
- *   This pattern also meet Open/close principle
+ *   This pattern also meet Open/Close principle
  *
  *
  */
